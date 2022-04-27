@@ -1,0 +1,42 @@
+.section {
+    width: 80%;
+    max-width: 1270px;
+}
+
+form {
+    padding: 1rem;
+}
+
+input[type="text"],
+textarea {
+    border: none;
+    background-color: rgb(240, 253, 231);
+    padding: .7rem;
+    margin: .5rem 0;
+}
+
+button[type="text"] {
+    margin: 1rem 0;
+}
+
+.order-list {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.order,
+#progress,
+#order-table {
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+#cartArea {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(230, 235, 240, 0.267);
+}

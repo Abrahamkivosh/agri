@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Site name</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body class="bg-light">
+		<nav
+			class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-bottom"
+		>
+			<div class="container-fluid section">
+				<a class="navbar-brand" href="#">Brand Name</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="index.html"
+								>Order</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link text-success"
+								href="tracking.html"
+								>Tracking order</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-success" href="#">Help</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid section mt-3">
+			<div class="row p-2">
+				<div class="col-lg-8 bg-white">
+					<h4 id="top">Checkout</h4>
+					<form action="" class="row">
+						<h5>Address details</h5>
+
+						<input
+							class="col-lg-5"
+							type="text"
+							name=""
+							placeholder="First name"
+							id=""
+						/>
+						<div class="col-lg-1"></div>
+						<input
+							class="col-lg-5"
+							type="text"
+							name=""
+							placeholder="Second name"
+							id=""
+						/>
+						<div class="col-lg-1"></div>
+						<input
+							class="col-lg-11"
+							type="text"
+							name=""
+							placeholder="Phone number"
+							id=""
+						/>
+						<textarea
+							class="col-lg-11"
+							name=""
+							id=""
+							cols="30"
+							rows="5"
+							placeholder="Street name/ Building/ Apartment no./ Floor"
+						></textarea>
+						<input
+							class="col-lg-11"
+							type="text"
+							name=""
+							placeholder="Region"
+							id=""
+						/>
+						<input
+							class="col-lg-11"
+							type="text"
+							name=""
+							placeholder="City/ Town"
+							id=""
+						/>
+						<button type="submit" class="btn btn-success col-lg-11">
+							Complete ordering
+						</button>
+					</form>
+				</div>
+				<div class="col-lg-4">
+					<h4>Order summary</h4>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="card mb-3">
+								<div class="row g-0">
+									<div class="col-md-4 text-center mt-4">
+										<img
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAA1BMVEUKu7UW14h8AAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALA8UNAAFusnLHAAAAAElFTkSuQmCC"
+											alt="..."
+											width="100px"
+										/>
+									</div>
+									<div class="col-md-8">
+										<div class="card-body">
+											<small>
+												<p class="card-text">
+													Product information
+												</p>
+												<p class="card-title">
+													Quantity
+												</p>
+												<div class="card-body">
+													<p class="card-text">1</p>
+												</div>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mb-3">
+								<div class="row g-0">
+									<div class="col-md-4 text-center mt-4">
+										<img
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAA1BMVEUKu7UW14h8AAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALA8UNAAFusnLHAAAAAElFTkSuQmCC"
+											alt="..."
+											width="100px"
+										/>
+									</div>
+									<div class="col-md-8">
+										<div class="card-body">
+											<small>
+												<p class="card-text">
+													Product information
+												</p>
+												<p class="card-title">
+													Quantity
+												</p>
+												<div class="card-body">
+													<p class="card-text">1</p>
+												</div>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mb-3">
+								<div class="row g-0">
+									<div class="col-md-6">
+										<div class="card-body">
+											<p class="card-text">Total</p>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="card-body">
+											<p>KSh 334</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="text-center">
+								<a
+									href="index.html"
+									class="btn btn-outline-success"
+									>Back to cart</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item">
+							<a class="text-success" href="#top">Top</a>
+						</li>
+						<li class="breadcrumb-item active" aria-current="page">
+							bottom
+						</li>
+					</ol>
+				</nav>
+			</div>
+		</div>
+		<script
+			src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+			data-auto-replace-svg="nest"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+			integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+			integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
